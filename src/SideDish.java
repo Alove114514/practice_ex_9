@@ -23,5 +23,4 @@ enum SideDish {
     public String toString() {
         return sideDishName + " - " + addToPizzaPrice;
     }
-    
 }

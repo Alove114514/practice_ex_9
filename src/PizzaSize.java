@@ -1,7 +1,7 @@
 enum PizzaSize {
-    LARGE("Large", 10),
-    MEDIUM("Medium", 5),
-    SMALL("Small", 0);
+    SMALL("Small", 2),
+    MEDIUM("Medium", 4),
+    LARGE("Large", 6);
 
     private final String pizzaSize;
     private final double addToPizzaPrice;
@@ -22,5 +22,4 @@ enum PizzaSize {
     public String toString() {
         return pizzaSize + " - " + addToPizzaPrice;
     }
-    
 }
